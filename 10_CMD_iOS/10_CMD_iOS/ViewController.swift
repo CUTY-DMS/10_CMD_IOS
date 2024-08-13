@@ -95,7 +95,6 @@ class ViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-<<<<<<< HEAD
         layout()
         
         view.backgroundColor = .white
@@ -268,9 +267,5 @@ class ViewController: UIViewController {
             $0.height.equalTo(36)
             $0.width.equalTo(40)
         }
-=======
-       
-        
->>>>>>> main
     }
 }
