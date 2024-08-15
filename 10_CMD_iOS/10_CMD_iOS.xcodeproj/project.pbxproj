@@ -10,12 +10,14 @@
 		35A553402C6A1F93006F251F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A5533F2C6A1F93006F251F /* AppDelegate.swift */; };
 		35A553422C6A1F93006F251F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A553412C6A1F93006F251F /* SceneDelegate.swift */; };
 		35A553442C6A1F93006F251F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A553432C6A1F93006F251F /* ViewController.swift */; };
+		35A553472C6A1F93006F251F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 35A553462C6A1F93006F251F /* Base */; };
 		35A553492C6A1F95006F251F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A553482C6A1F95006F251F /* Assets.xcassets */; };
 		35A5534C2C6A1F95006F251F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 35A5534B2C6A1F95006F251F /* Base */; };
 		35A553572C6A1F95006F251F /* _0_CMD_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A553562C6A1F95006F251F /* _0_CMD_iOSTests.swift */; };
 		35A553612C6A1F95006F251F /* _0_CMD_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A553602C6A1F95006F251F /* _0_CMD_iOSUITests.swift */; };
 		35A553632C6A1F95006F251F /* _0_CMD_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A553622C6A1F95006F251F /* _0_CMD_iOSUITestsLaunchTests.swift */; };
 		4FD69C04253412A6742AD524 /* Pods_10_CMD_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0D08912E9A271364CE653A /* Pods_10_CMD_iOSTests.framework */; };
+		559B143F2C6B6A010043F98E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B143E2C6B6A010043F98E /* SignUpViewController.swift */; };
 		82191AD8FF30AA328B5AA0CE /* Pods_10_CMD_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45632459C4739234C5EDFBFD /* Pods_10_CMD_iOS.framework */; };
 		BE32438EE662ABD6B98CA470 /* Pods_10_CMD_iOS_10_CMD_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC2FBAECE1DA9F6ABB4E8E3 /* Pods_10_CMD_iOS_10_CMD_iOSUITests.framework */; };
 /* End PBXBuildFile section */
@@ -43,6 +45,7 @@
 		35A5533F2C6A1F93006F251F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35A553412C6A1F93006F251F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		35A553432C6A1F93006F251F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		35A553462C6A1F93006F251F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35A553482C6A1F95006F251F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35A5534B2C6A1F95006F251F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35A5534D2C6A1F95006F251F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		35A553602C6A1F95006F251F /* _0_CMD_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_CMD_iOSUITests.swift; sourceTree = "<group>"; };
 		35A553622C6A1F95006F251F /* _0_CMD_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0_CMD_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		45632459C4739234C5EDFBFD /* Pods_10_CMD_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_10_CMD_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		559B143E2C6B6A010043F98E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = /Users/jiminzzang/Desktop/10_CMD_iOS/10_CMD_iOS/10_CMD_iOS/VC/SignUpViewController.swift; sourceTree = "<absolute>"; };
 		803FD702411BB3C5FB0DA9FD /* Pods-10_CMD_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-10_CMD_iOSTests.debug.xcconfig"; path = "Target Support Files/Pods-10_CMD_iOSTests/Pods-10_CMD_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E112FFA00B1E31575B11711 /* Pods-10_CMD_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-10_CMD_iOS.debug.xcconfig"; path = "Target Support Files/Pods-10_CMD_iOS/Pods-10_CMD_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		99F7BA657FD1E4B7F190727D /* Pods-10_CMD_iOS-10_CMD_iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-10_CMD_iOS-10_CMD_iOSUITests.release.xcconfig"; path = "Target Support Files/Pods-10_CMD_iOS-10_CMD_iOSUITests/Pods-10_CMD_iOS-10_CMD_iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +134,7 @@
 				35A5533F2C6A1F93006F251F /* AppDelegate.swift */,
 				35A553412C6A1F93006F251F /* SceneDelegate.swift */,
 				35A553432C6A1F93006F251F /* ViewController.swift */,
+				35A553452C6A1F93006F251F /* Main.storyboard */,
 				35A553482C6A1F95006F251F /* Assets.xcassets */,
 				35A5534A2C6A1F95006F251F /* LaunchScreen.storyboard */,
 				35A5534D2C6A1F95006F251F /* Info.plist */,
@@ -152,6 +157,24 @@
 				35A553622C6A1F95006F251F /* _0_CMD_iOSUITestsLaunchTests.swift */,
 			);
 			path = 10_CMD_iOSUITests;
+			sourceTree = "<group>";
+		};
+		55EC67CA2C6A2204006006FC /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				35A553432C6A1F93006F251F /* LoginViewController.swift */,
+				559B143E2C6B6A010043F98E /* SignUpViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		55EC67CB2C6A220F006006FC /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				35A5533F2C6A1F93006F251F /* AppDelegate.swift */,
+				35A553412C6A1F93006F251F /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		874B3D1EDCE591EBE6B43A5A /* Frameworks */ = {
@@ -182,6 +205,8 @@
 			dependencies = (
 			);
 			name = 10_CMD_iOS;
+			packageProductDependencies = (
+			);
 			productName = 10_CMD_iOS;
 			productReference = 35A5533C2C6A1F93006F251F /* 10_CMD_iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +282,8 @@
 				Base,
 			);
 			mainGroup = 35A553332C6A1F93006F251F;
+			packageReferences = (
+			);
 			productRefGroup = 35A5533D2C6A1F93006F251F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -402,7 +429,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35A553442C6A1F93006F251F /* ViewController.swift in Sources */,
+				559B143F2C6B6A010043F98E /* SignUpViewController.swift in Sources */,
+				35A553442C6A1F93006F251F /* LoginViewController.swift in Sources */,
 				35A553402C6A1F93006F251F /* AppDelegate.swift in Sources */,
 				35A553422C6A1F93006F251F /* SceneDelegate.swift in Sources */,
 			);
@@ -581,6 +609,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_FLATTEN_NIBS = NO;
 				INFOPLIST_FILE = 10_CMD_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -609,6 +638,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_FLATTEN_NIBS = NO;
 				INFOPLIST_FILE = 10_CMD_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
