@@ -7,32 +7,56 @@
 		<key>Pods-10_CMD_iOS-10_CMD_iOSUITests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< Updated upstream
 			<integer>6</integer>
+=======
+			<integer>0</integer>
+>>>>>>> Stashed changes
 		</dict>
 		<key>Pods-10_CMD_iOS.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< Updated upstream
 			<integer>0</integer>
+=======
+			<integer>1</integer>
+>>>>>>> Stashed changes
 		</dict>
 		<key>Pods-10_CMD_iOSTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< Updated upstream
 			<integer>3</integer>
+=======
+			<integer>4</integer>
+>>>>>>> Stashed changes
 		</dict>
 		<key>SnapKit-SnapKit_Privacy.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< Updated upstream
 			<integer>2</integer>
+=======
+			<integer>5</integer>
+>>>>>>> Stashed changes
 		</dict>
 		<key>SnapKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< Updated upstream
 			<integer>4</integer>
+=======
+			<integer>3</integer>
+>>>>>>> Stashed changes
 		</dict>
 		<key>Then.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+<<<<<<< Updated upstream
 			<integer>5</integer>
+=======
+			<integer>2</integer>
+>>>>>>> Stashed changes
 		</dict>
 	</dict>
 </dict>
