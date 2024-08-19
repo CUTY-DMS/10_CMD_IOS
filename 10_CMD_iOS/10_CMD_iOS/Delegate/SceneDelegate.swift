@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  10_CMD_iOS
-//
-//  Created by 손희찬 on 8/12/24.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
@@ -13,11 +6,15 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let scene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(windowScene: scene)
-        let viewController = ViewController()
-        window?.rootViewController = viewController
-        window?.makeKeyAndVisible()
+        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
+        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
+        // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
+        guard let windowScene = (scene as? UIWindowScene) else { return }
+            window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+            window?.windowScene = windowScene
+            let rootViewController = LoginViewController()
+            window?.rootViewController = UINavigationController(rootViewController: LoginViewController()) // RootViewController
+            window?.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -50,4 +47,3 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
 }
-

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  10_CMD_iOS
-//
-//  Created by 손희찬 on 8/12/24.
-//
-
 import UIKit
 
 @main
