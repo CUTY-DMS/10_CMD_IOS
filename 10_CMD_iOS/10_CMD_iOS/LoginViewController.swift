@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
         $0.addLeftPadding()
     }
     
-    let passWordTextField = UITextField() .then{
+    let passWordTextField = UITextField().then{
         $0.placeholder = "비밀번호"
         $0.textColor = .black
         $0.font = UIFont.systemFont(ofSize: 20, weight: .regular)
