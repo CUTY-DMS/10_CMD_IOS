@@ -2,6 +2,7 @@
 import UIKit
 import SnapKit
 import Then
+// 마이페이지 자리 설정 버튼 직접 짜기,그리고 아래 완료 버튼만들기
 
 class ViewController: UIViewController {
     let myPageText = UILabel().then{
@@ -70,29 +71,25 @@ class ViewController: UIViewController {
         $0.textColor = UIColor.black
         $0.font = UIFont.systemFont(ofSize: 15, weight: .semibold)
     }
-    let seat = UILabel().then {
+    let seatText = UILabel().then {
         $0.text = "자리 배치"
         $0.textColor = UIColor.black
         $0.font = UIFont.systemFont(ofSize: 24, weight: .bold)
     }
-    let seatView = UIImageView().then {
-        $0.image = UIImage(named: "seatImage")
+    let seatView = UIButton().then {
+        $0.backgroundColor = UIColor(named: "seatViewColor")
+        $0.layer.cornerRadius = 10
     }
-    let underBar = UIImageView().then {
-        $0.image = UIImage(named: "underBar")
-    }
-    let scheduleButton = UIButton().then {
-        $0.setImage(UIImage(named: "schedule"), for: .normal)
-    }
-    let studentButton = UIButton().then {
-        $0.setImage(UIImage(named: "student"), for: .normal)
-    }
-    let notificationButton = UIButton().then {
-        $0.setImage(UIImage(named: "notification"), for: .normal)
-    }
-    let myPageButton = UIButton().then {
-        $0.setImage(UIImage(named: "myPage"), for: .normal)
-    }
+    // 학생들 누르는거 어케하노 부분
+    
+    
+    let checkButton = UIButton().then {
+            $0.setTitle("확인", for: .normal)
+            $0.setTitleColor(UIColor(named: "checkColor"), for: .normal)
+            $0.backgroundColor = UIColor(named: "checkBoxColor")
+        $0.layer.cornerRadius = 18
+        } // rayout 잡아주세요
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         layout()
@@ -111,13 +108,7 @@ class ViewController: UIViewController {
             birthText,userBirth,
             specialtyText,userSpecialty,
             clubText,userClub,
-            seat,
-            seatView,
-            underBar,
-            scheduleButton,
-            studentButton,
-            notificationButton,
-            myPageButton
+            seatText
         ].forEach { view.addSubview($0) }
         
         myPageText.snp.makeConstraints {
@@ -218,54 +209,12 @@ class ViewController: UIViewController {
             $0.height.equalTo(21)
             $0.width.equalTo(35)
         }
-        seat.snp.makeConstraints {
+        seatText.snp.makeConstraints {
             $0.top.equalTo(clubText.snp.bottom).offset(18)
             $0.left.equalTo(userInformation.snp.left).offset(30)
             $0.right.equalTo(userInformation.snp.right).offset(244)
             $0.height.equalTo(29)
             $0.width.equalTo(89)
-        }
-        seatView.snp.makeConstraints {
-            $0.top.equalTo(seat.snp.bottom).offset(28)
-            $0.left.equalTo(userInformation.snp.left).offset(52)
-            $0.right.equalTo(userInformation.snp.right).inset(51)
-            $0.height.equalTo(195)
-            $0.width.equalTo(240)
-        }
-        underBar.snp.makeConstraints {
-            $0.top.equalTo(userInformation.snp.bottom).offset(51)
-            $0.left.equalToSuperview().inset(0)
-            $0.right.equalToSuperview().inset(0)
-            $0.height.equalTo(80)
-            $0.width.equalTo(393)
-        }
-        scheduleButton.snp.makeConstraints {
-            $0.top.equalTo(underBar.snp.top).offset(18)
-            $0.left.equalToSuperview().inset(45)
-            $0.right.equalToSuperview().inset(308)
-            $0.height.equalTo(40)
-            $0.width.equalTo(40)
-        }
-        studentButton.snp.makeConstraints {
-            $0.top.equalTo(underBar.snp.top).offset(22)
-            $0.left.equalToSuperview().inset(128)
-            $0.right.equalToSuperview().inset(214)
-            $0.height.equalTo(32)
-            $0.width.equalTo(51)
-        }
-        notificationButton.snp.makeConstraints {
-            $0.top.equalTo(underBar.snp.top).offset(14)
-            $0.left.equalToSuperview().inset(222)
-            $0.right.equalToSuperview().inset(308)
-            $0.height.equalTo(43)
-            $0.width.equalTo(44)
-        }
-        myPageButton.snp.makeConstraints {
-            $0.top.equalTo(underBar.snp.top).offset(18)
-            $0.left.equalToSuperview().inset(308)
-            $0.right.equalToSuperview().inset(45)
-            $0.height.equalTo(36)
-            $0.width.equalTo(40)
         }
     }
 }
